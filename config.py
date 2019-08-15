@@ -19,3 +19,4 @@ class Config:
 
     POSTS_PER_PAGE = 3
     LANGUAGES = ['en', 'ru']
+    YANDEX_TRANSLATOR_KEY = os.environ.get('YANDEX_TRANSLATOR_KEY')
